@@ -2,14 +2,14 @@
 
 The main goal of this repository is to make easy the training of custom NER model.
 
-![](./data/spacy_ner_pipeline.png)
+![](./data/image/spacy_ner_pipeline.png)
 
 # Table of content
 
 - [0. About](#0-about)
 - [1. Installation](#1-installation)
-- [2. GSome details](#2-some-details)
-- [3. To do](#3-to-do)
+- [2. Usage](#2-usage)
+
 
 ## 0. About
 The main goal of this repository is to make easy the training of custom NER model. Before using it, you need to have label data in *.jsonl* format. You can use Doccano (https://doccano.github.io/doccano/) for instance to label your data. The code is constructed in a way, you only need to update the config file *config.yaml* and launch *main.py* to train and evaluate a spacy model. The cleaning and data preprocessing are taking care of. 
@@ -51,6 +51,21 @@ data_death :
     model_folder : "./models/model_death"
     performance_filename : "performances_death.json"
 ```
+
+## 2.2 data file
+
+The data file need to be on .jsonl format (one line = one document). This repository is particularly adapted for long document. We only tested with Doccana files.
+
+
+## 2.3 the training config file
+
+There are located in ./training_config. We suggest to use one config file for each model you want to create.
+This  config_file is taken from spacy-transformers. You can find more information here: https://spacy.io/usage/training#config
+
+## 2.4 resuls
+
+The trained model is located in ./models with its associated performances.
+using the script: "main_push_model_huggingface.py" ; you can push the model to ypur hugging face space. You need to have a hugging face account and to have installed the hugging face library (pip install spacy_huggingface_hub).
 
 
  
