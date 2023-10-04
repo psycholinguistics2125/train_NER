@@ -1,0 +1,5 @@
+pandas
+setuptools
+wheel
+spacy[cuda-autodetect,transformers,lookups]
+https://github.com/explosion/spacy-models/releases/download/fr_dep_news_trf-3.4.0/fr_dep_news_trf-3.4.0-py3-none-any.whl

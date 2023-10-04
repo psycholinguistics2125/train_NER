@@ -1,0 +1,20 @@
+data : 
+  source_folder : "path/to/annotation/folder"
+  saving_folder : "./data"
+  seed : 50
+  
+  data_test :
+    labels : ['label_1', label_2', 'label_3']
+    origin_file : "annotation_filename.jsonl"
+    validation_file : ""
+    dataset_folder : "./data/data_test"
+  
+training:
+  config_folder : "./training_config"
+  
+  model_test:
+    gpu : 0
+    config_name : "example_config_transformers.cfg"
+    model_folder : "./models/model_test"
+    performance_filename : "performances_test.json"
+  
