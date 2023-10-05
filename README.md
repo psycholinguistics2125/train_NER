@@ -2,6 +2,9 @@
 
 The main goal of this repository is to make easy the training of custom NER model.
 
+**Author:** Anonymized for Journal review
+**Contact:** psycholinquistic2125@gmail.com
+
 ![](./data/image/spacy_ner_pipeline.png)
 
 # Table of content

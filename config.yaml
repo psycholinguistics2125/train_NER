@@ -1,7 +1,8 @@
 data : 
   source_folder : "path/to/annotation/folder"
   saving_folder : "./data"
-  seed : 50
+  seed : 0 # random seed for reproduction
+  seq_len : 200 # length of the sequence that create the training examples
   
   data_test :
     labels : ['label_1', label_2', 'label_3']
