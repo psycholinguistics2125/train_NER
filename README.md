@@ -1,3 +1,6 @@
+[![Code style: black](https://img.shields.io/badge/Code%20Style-Black-black)](https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html)
+
+
 # Train Custom Spacy NER (token-classifier) models
 
 The main goal of this repository is to make easy the training of custom NER model.
