@@ -74,4 +74,8 @@ The trained model is located in ./models with its associated performances.
 using the script: "main_push_model_huggingface.py" ; you can push the model to ypur hugging face space. You need to have a hugging face account and to have installed the hugging face library (pip install spacy_huggingface_hub).
 
 
- 
+ For example, those models were created using this repository:
+- https://huggingface.co/binbin83/fr_lexical_death
+- https://huggingface.co/binbin83/fr_sensations_and_body
+- https://huggingface.co/binbin83/fr_present_tense_value
+- https://huggingface.co/binbin83/fr_on_value
